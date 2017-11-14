@@ -1,136 +1,182 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <title>台北球場地圖</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/subtitle-color.css">
-  </head>
-  <body>
+<head>
+  <title>台北球場地圖</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="../index.html">台北球場地圖</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../css/main.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="../index.html">
+      <img src="../img/brand.png" alt="" class="img-fluid">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="../index.html">首頁 <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="../index.html">首頁
+            <span class="sr-only">(current)</span>
+          </a>
         </li>
         <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          球類
-        </a>
-        <div class="dropdown-menu nav-item" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">籃球</a>
-          <a class="dropdown-item" href="#">排球</a>
-          <a class="dropdown-item" href="#">棒球</a>
-          <a class="dropdown-item" href="#">足球</a>
-          <a class="dropdown-item" href="#">桌球</a>
-          <a class="dropdown-item" href="#">羽球</a>
-          <a class="dropdown-item" href="#">網球</a>
-          <a class="dropdown-item" href="#">撞球</a>
-        </div>
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">
+            球類
+          </a>
+          <div class="dropdown-menu nav-item" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">籃球</a>
+            <a class="dropdown-item" href="#">排球</a>
+            <a class="dropdown-item" href="#">棒球</a>
+            <a class="dropdown-item" href="#">足球</a>
+            <a class="dropdown-item" href="#">桌球</a>
+            <a class="dropdown-item" href="#">羽球</a>
+            <a class="dropdown-item" href="#">網球</a>
+            <a class="dropdown-item" href="#">撞球</a>
+          </div>
+          <li class="nav-item">
+            <a class="nav-link" href="#">關於我們</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-info" href="#">錯誤回報</a>
+          </li>
+      </ul>
+      <ul class="navbar-nav mr-3">
         <li class="nav-item">
-          <a class="nav-link" href="#">關於我們</a>
+          <a class="nav-link" href="#">
+            <i class="fa fa-facebook-square fa-2x text-info" aria-hidden="true"></i>
+          </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-info" href="#">錯誤回報</a>
+          <a class="nav-link" href="#">
+            <i class="fa fa-twitter-square fa-2x text-info" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            <i class="fa fa-instagram fa-2x text-info" aria-hidden="true"></i>
+          </a>
         </li>
       </ul>
       <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="尋找球場" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">搜尋</button>
+        <input class="form-control mr-sm-2" type="search" placeholder="尋找球場" aria-label="Search">
+        <button class="btn btn-outline-info my-2 my-sm-0" type="submit">搜尋</button>
       </form>
-      </div>
-    </nav>
+    </div>
+  </nav>
 
-    <img src="../img/cover.png" class="img-fluid" alt="Responsive image">
-    <h3 class="p-3 mb-5 text-dark text-center" id="subtitle-volley">排球場</h3>
-    <div class="container my-5">
-      <div class="embed-responsive embed-responsive-4by3">
-        <iframe class="embed-responsive-item" src="https://www.google.com/maps/d/embed?mid=1olQbZdS3KuifeGpQlhtUMxU8AEo1kSj2&hl=zh-TW" frameborder="0" style="border:0" allowfullscreen></iframe>
-      </div>
-
-      <table class="table mt-3">
-  <thead class="thead-light">
-    <tr>
-      <th scope="col">名稱</th>
-      <th scope="col">場地數</th>
-      <th scope="col">開放時間</th>
-      <th scope="col">備註</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row"><a href="info.html" class="text-info">臺北教育大學</a></th>
-      <td>2</td>
-      <td>全天</td>
-      <td>系隊練習時段優先</td>
-    </tr>
-    <tr>
-      <th scope="row"><a href="" class="text-info">臺灣大學戶外排球場</a></th>
-      <td>5</td>
-      <td>全天</td>
-      <td></td>
-    </tr>
-    <tr>
-      <th scope="row"><a href="" class="text-info">臺大體育館室內排球場</a></th>
-      <td>4</td>
-      <td>6:00~22:00</td>
-      <td>校外人士須申請</td>
-    </tr>
-    <tr>
-      <th scope="row"><a href="" class="text-info">大安運動中心室內排球場</a></th>
-      <td>2</td>
-      <td>8:30~21:00</td>
-      <td>需付費租借</td>
-    </tr>
-    <tr>
-      <th scope="row"><a href="" class="text-info">臺灣科技大學</a></th>
-      <td>4</td>
-      <td>8:30~22:00</td>
-      <td>@twitter</td>
-    </tr>
-    <tr>
-      <th scope="row"><a href="" class="text-info">龍門國中</a></th>
-      <td>2</td>
-      <td>6:00~22:00</td>
-      <td></td>
-    </tr>
-    <tr>
-      <th scope="row"><a href="" class="text-info">臺師大室內排球場</a></th>
-      <td>2</td>
-      <td>6:00~22:00</td>
-      <td>校外人士須申請</td>
-    </tr>
-    <tr>
-      <th scope="row"><a href="" class="text-info">大安高工</a></th>
-      <td>3</td>
-      <td>6:00~22:00</td>
-      <td></td>
-    </tr>
-  </tbody>
-</table>
+  <img src="../img/cover.png" class="img-fluid" alt="Responsive image">
+  <h3 class="p-3 mb-5 text-white text-center" id="subtitle-volley">打排球！</h3>
+  <div class="container my-5">
+    <div class="embed-responsive embed-responsive-4by3">
+      <iframe class="embed-responsive-item" src="https://www.google.com/maps/d/u/0/embed?mid=1olQbZdS3KuifeGpQlhtUMxU8AEo1kSj2&hl=zh-TW"
+        frameborder="0" style="border:0" allowfullscreen></iframe>
     </div>
 
+    <table class="table table-hover mt-3">
+      <thead class="bg-info text-white">
+        <tr>
+          <th scope="col">名稱</th>
+          <th scope="col">場地數</th>
+          <th scope="col">開放時間</th>
+          <th scope="col">備註</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">
+            <a href="info.html" class="text-info">臺北教育大學</a>
+          </th>
+          <td>2</td>
+          <td>全天</td>
+          <td>系隊練習時段優先</td>
+        </tr>
+        <tr>
+          <th scope="row">
+            <a href="" class="text-info">臺灣大學戶外排球場</a>
+          </th>
+          <td>5</td>
+          <td>全天</td>
+          <td></td>
+        </tr>
+        <tr>
+          <th scope="row">
+            <a href="" class="text-info">臺大體育館室內排球場</a>
+          </th>
+          <td>4</td>
+          <td>6:00~22:00</td>
+          <td>校外人士須申請</td>
+        </tr>
+        <tr>
+          <th scope="row">
+            <a href="" class="text-info">大安運動中心室內排球場</a>
+          </th>
+          <td>2</td>
+          <td>8:30~21:00</td>
+          <td>需付費租借</td>
+        </tr>
+        <tr>
+          <th scope="row">
+            <a href="" class="text-info">臺灣科技大學</a>
+          </th>
+          <td>4</td>
+          <td>8:30~22:00</td>
+          <td></td>
+        </tr>
+        <tr>
+          <th scope="row">
+            <a href="" class="text-info">龍門國中</a>
+          </th>
+          <td>2</td>
+          <td>6:00~22:00</td>
+          <td></td>
+        </tr>
+        <tr>
+          <th scope="row">
+            <a href="" class="text-info">臺師大室內排球場</a>
+          </th>
+          <td>2</td>
+          <td>6:00~22:00</td>
+          <td>校外人士須申請</td>
+        </tr>
+        <tr>
+          <th scope="row">
+            <a href="" class="text-info">大安高工</a>
+          </th>
+          <td>3</td>
+          <td>6:00~22:00</td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
 
 
-    <footer>
-      <div class="bg-dark text-light text-center p-3"><h6>2017 © Cursain Liu & Charles Ku </h6></div>
-    </footer>
+  <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-bottom justify-content-center">
+    <h6 class="navbar-text text-white text-center m-0">2017 © Cursain Liu & Charles Ku @ NTUE DTD</h6>
+  </nav>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="js/main.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-  </body>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+    crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+    crossorigin="anonymous"></script>
+</body>
 
 </html>

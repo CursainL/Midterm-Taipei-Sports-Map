@@ -1,84 +1,186 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <title>台北球場地圖</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-  </head>
-  <body>
+<head>
+  <title>台北球場地圖</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="index.html">台北球場地圖</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">
+      <img src="./img/brand.png" alt="" class="img-fluid">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="index.html">首頁 <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="index.html">首頁
+            <span class="sr-only">(current)</span>
+          </a>
         </li>
         <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          球類
-        </a>
-        <div class="dropdown-menu nav-item" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">籃球</a>
-          <a class="dropdown-item" href="#">排球</a>
-          <a class="dropdown-item" href="#">棒球</a>
-          <a class="dropdown-item" href="#">足球</a>
-          <a class="dropdown-item" href="#">桌球</a>
-          <a class="dropdown-item" href="#">羽球</a>
-          <a class="dropdown-item" href="#">網球</a>
-          <a class="dropdown-item" href="#">撞球</a>
-        </div>
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">
+            球類
+          </a>
+          <div class="dropdown-menu nav-item" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">籃球</a>
+            <a class="dropdown-item" href="#">排球</a>
+            <a class="dropdown-item" href="#">棒球</a>
+            <a class="dropdown-item" href="#">足球</a>
+            <a class="dropdown-item" href="#">桌球</a>
+            <a class="dropdown-item" href="#">羽球</a>
+            <a class="dropdown-item" href="#">網球</a>
+            <a class="dropdown-item" href="#">撞球</a>
+          </div>
+          <li class="nav-item">
+            <a class="nav-link" href="#">關於我們</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-info" href="#">錯誤回報</a>
+          </li>
+      </ul>
+      <ul class="navbar-nav mr-3">
         <li class="nav-item">
-          <a class="nav-link" href="#">關於我們</a>
+          <a class="nav-link" href="#">
+            <i class="fa fa-facebook-square fa-2x text-info" aria-hidden="true"></i>
+          </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-info" href="#">錯誤回報</a>
+          <a class="nav-link" href="#">
+            <i class="fa fa-twitter-square fa-2x text-info" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            <i class="fa fa-instagram fa-2x text-info" aria-hidden="true"></i>
+          </a>
         </li>
       </ul>
       <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="尋找球場" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">搜尋</button>
+        <input class="form-control mr-sm-2" type="search" placeholder="尋找球場" aria-label="Search">
+        <button class="btn btn-outline-info my-2 my-sm-0" type="submit">搜尋</button>
       </form>
-      </div>
-    </nav>
+    </div>
+  </nav>
 
-    <img src="img/cover.png" class="img-fluid" alt="Responsive image">
-    <h3 class="p-3 mb-5 bg-light text-dark text-center">今天想打什麼球？</h3>
+  <img src="img/cover.png" class="img-fluid" alt="Responsive image">
+  <h3 class="p-3 mb-5 text-white text-center subtitle-main">今天想打什麼球？</h3>
 
-    <div class="container">
-      <div class="row">
-        <div class="col-3"><a href=""><img src="img/basket.png" alt="" class="img-fluid" data-toggle="tooltip" data-placement="top" title="籃球"></a></div>
-        <div class="col-3"><a href="html/map.html"><img src="img/volley.png" alt="" class="img-fluid" data-toggle="tooltip" data-placement="top" title="排球"></a></div>
-        <div class="col-3"><a href=""><img src="img/base.png" alt="" class="img-fluid" data-toggle="tooltip" data-placement="top" title="棒球"></a></div>
-        <div class="col-3"><a href=""><img src="img/foot.png" alt="" class="img-fluid" data-toggle="tooltip" data-placement="top" title="足球"></a></div>
+  <div class="container">
+    <div class="row my-4">
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <div class="card bg-dark text-white border-0 mb-4">
+          <img class="card-img" src="./img/basket.png" alt="Card image">
+          <a href="./html/map.html" class="card-link">
+            <div class="card-img-overlay home-card d-flex justify-content-center align-items-center">
+              <h3 class="card-title bold">籃球</h3>
+            </div>
+          </a>
+        </div>
       </div>
-      <div class="row my-5">
-        <div class="col-3"><a href=""><img src="img/table.png" alt="" class="img-fluid" data-toggle="tooltip" data-placement="top" title="桌球"></a></div>
-        <div class="col-3"><a href=""><img src="img/badminton.png" alt="" class="img-fluid" data-toggle="tooltip" data-placement="top" title="羽毛球"></a></div>
-        <div class="col-3"><a href=""><img src="img/tennis.png" alt="" class="img-fluid" data-toggle="tooltip" data-placement="top" title="網球"></a></div>
-        <div class="col-3"><a href=""><img src="img/billiard.png" alt="" class="img-fluid" data-toggle="tooltip" data-placement="top" title="撞球"></a></div>
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <div class="card bg-dark text-white border-0">
+          <img class="card-img" src="./img/volley.png" alt="Card image">
+          <a href="./html/map.html" class="card-link">
+              <div class="card-img-overlay home-card d-flex justify-content-center align-items-center">
+              <h3 class="card-title bold">排球</h3>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <div class="card bg-dark text-white border-0">
+          <img class="card-img" src="./img/base.png" alt="Card image">
+          <a href="./html/map.html" class="card-link">
+            <div class="card-img-overlay home-card d-flex justify-content-center align-items-center">
+              <h3 class="card-title bold">棒球</h3>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <div class="card bg-dark text-white border-0">
+          <img class="card-img" src="./img/foot.png" alt="Card image">
+          <a href="./html/map.html" class="card-link">
+            <div class="card-img-overlay home-card d-flex justify-content-center align-items-center">
+              <h3 class="card-title bold">足球</h3>
+            </div>
+          </a>
+        </div>
       </div>
     </div>
 
-    <footer>
-      <div class="bg-dark text-light text-center p-3">
-        <h6>2017 © Cursain Liu & Charles Ku </h6>
+    <div class="row my-4">
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <div class="card bg-dark text-white border-0 mb-4">
+          <img class="card-img" src="./img/table.png" alt="Card image">
+          <a href="./html/map.html" class="card-link">
+            <div class="card-img-overlay home-card d-flex justify-content-center align-items-center">
+              <h3 class="card-title bold">桌球</h3>
+            </div>
+          </a>
+        </div>
       </div>
-    </footer>
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <div class="card bg-dark text-white border-0">
+          <img class="card-img" src="./img/badminton.png" alt="Card image">
+          <a href="./html/map.html" class="card-link">
+            <div class="card-img-overlay home-card d-flex justify-content-center align-items-center">
+              <h3 class="card-title bold">羽球</h3>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <div class="card bg-dark text-white border-0">
+          <img class="card-img" src="./img/tennis.png" alt="Card image">
+          <a href="./html/map.html" class="card-link">
+            <div class="card-img-overlay home-card d-flex justify-content-center align-items-center">
+              <h3 class="card-title bold">網球</h3>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <div class="card bg-dark text-white border-0">
+          <img class="card-img" src="./img/billiard.png" alt="Card image">
+          <a href="./html/map.html" class="card-link">
+            <div class="card-img-overlay home-card d-flex justify-content-center align-items-center">
+              <h3 class="card-title bold">撞球</h3>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-bottom justify-content-center">
+    <h6 class="navbar-text text-white text-center m-0">2017 © Cursain Liu & Charles Ku @ NTUE DTD</h6>
+  </nav>
 
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="js/main.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-  </body>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+    crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>

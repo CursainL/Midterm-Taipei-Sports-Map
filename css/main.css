@@ -1,0 +1,24 @@
+@import "./subtitle-color.css";
+
+body{
+    font-family: Microsoft JhengHei;
+    padding-bottom: 70px;
+}
+
+.home-card{
+    background-color: #000;
+    opacity:0;
+    transition: opacity 0.3s ease;
+}
+
+.home-card:hover{
+    opacity:.7;
+}
+
+.card-link:link {
+  color: rgb(255, 255, 255);
+}
+
+.card-link:hover {
+  color: rgb(255, 255, 255);
+}
