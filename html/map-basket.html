@@ -10,7 +10,6 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
     crossorigin="anonymous">
-  <link rel="stylesheet" href="../css/subtitle-color.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="../css/main.css">
 </head>
@@ -38,9 +37,9 @@
             球類
           </a>
           <div class="dropdown-menu nav-item" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="./html/map.html">籃球</a>
+            <a class="dropdown-item" href="./html/map-basket.html">籃球</a>
             <a class="dropdown-item" href="./html/map.html">排球</a>
-            <a class="dropdown-item" href="./html/map.html">棒球</a>
+            <a class="dropdown-item" href="./html/map-base.html">棒球</a>
             <a class="dropdown-item" href="./html/map.html">足球</a>
             <a class="dropdown-item" href="./html/map.html">桌球</a>
             <a class="dropdown-item" href="./html/map.html">羽球</a>
@@ -79,37 +78,89 @@
   </nav>
 
   <img src="../img/cover.png" class="img-fluid" alt="Responsive image">
-  <h3 class="p-3 text-white text-center" id="subtitle-location">這裡有什麼？</h3>
-  <div class="container mt-5">
-    <div class="row justify-content-center">
-      <div class="col-sm-8">
-        <div class="card bg-light mb-3">
-          <h4 class="card-header text-center bg-info text-white">臺北教育大學</h4>
-          <div class="card-body">
-            <div class="row">
-              <div class="col-md-6">
-                <p>地址：臺北市大安區和平東路二段134號</p>
-                <p>場地類型：籃球場、排球場、網球場、桌球室</p>
-                <p>開放時間：全天</p>
-                <p>電話：02-27321104#83412</p>
-                <p>網址：
-                  <a href="http://www.ntue.edu.tw/" target="_blank">http://www.ntue.edu.tw/</a>
-                </p>
-                <p>備註：系隊練習時段優先</p>
-              </div>
-              <div class="col-md-6">
-                <img src="../img/ntue1.jpg" class="img-fluid my-3" alt="Responsive image">
-                <img src="../img/ntue2.jpg" class="img-fluid my-3" alt="Responsive image">
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="embed-responsive embed-responsive-4by3 mb-5">
-          <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3928.89168102942!2d121.5434500917243!3d25.023311610868408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a908a8232611%3A0xeebfb2d71a5025c7!2z5ZyL56uL5Y-w5YyX5pWZ6IKy5aSn5a24!5e0!3m2!1szh-TW!2stw!4v1510661675418"
-            frameborder="0" style="border:0" allowfullscreen></iframe>
-        </div>
-      </div>
+  <h3 class="p-3 mb-5 text-white text-center subtitle-basket">打籃球！</h3>
+  <div class="container my-5">
+    <div class="embed-responsive embed-responsive-4by3">
+      <iframe class="embed-responsive-item" src="https://www.google.com/maps/d/u/0/embed?mid=1olQbZdS3KuifeGpQlhtUMxU8AEo1kSj2&hl=zh-TW"
+        frameborder="0" style="border:0" allowfullscreen></iframe>
     </div>
+
+    <table class="table table-hover mt-3">
+      <thead class="bg-info text-white">
+        <tr>
+          <th scope="col">名稱</th>
+          <th scope="col">場地數</th>
+          <th scope="col">開放時間</th>
+          <th scope="col">備註</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">
+            <a href="info.html" class="text-info">臺北教育大學</a>
+          </th>
+          <td>3</td>
+          <td>全天</td>
+          <td>系隊練習時段優先</td>
+        </tr>
+        <tr>
+          <th scope="row">
+            <a href="info.html" class="text-info">臺灣大學戶外排球場</a>
+          </th>
+          <td>5</td>
+          <td>全天</td>
+          <td></td>
+        </tr>
+        <tr>
+          <th scope="row">
+            <a href="info.html" class="text-info">臺大體育館室內排球場</a>
+          </th>
+          <td>4</td>
+          <td>6:00~22:00</td>
+          <td>校外人士須申請</td>
+        </tr>
+        <tr>
+          <th scope="row">
+            <a href="info.html" class="text-info">大安運動中心室內排球場</a>
+          </th>
+          <td>2</td>
+          <td>8:30~21:00</td>
+          <td>需付費租借</td>
+        </tr>
+        <tr>
+          <th scope="row">
+            <a href="info.html" class="text-info">臺灣科技大學</a>
+          </th>
+          <td>4</td>
+          <td>8:30~22:00</td>
+          <td></td>
+        </tr>
+        <tr>
+          <th scope="row">
+            <a href="info.html" class="text-info">龍門國中</a>
+          </th>
+          <td>2</td>
+          <td>6:00~22:00</td>
+          <td></td>
+        </tr>
+        <tr>
+          <th scope="row">
+            <a href="info.html" class="text-info">臺師大室內排球場</a>
+          </th>
+          <td>2</td>
+          <td>6:00~22:00</td>
+          <td>校外人士須申請</td>
+        </tr>
+        <tr>
+          <th scope="row">
+            <a href="info.html" class="text-info">大安高工</a>
+          </th>
+          <td>3</td>
+          <td>6:00~22:00</td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
   </div>
 
 
