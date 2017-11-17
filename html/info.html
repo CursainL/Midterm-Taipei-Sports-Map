@@ -27,20 +27,21 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="../index.html">首頁
-            <span class="sr-only">(current)</span>
-          </a>
+        <li class="nav-item">
+          <a class="nav-link" href="#">最新資訊</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">球場清單</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
             aria-expanded="false">
-            球類
+            分類查詢
           </a>
           <div class="dropdown-menu nav-item" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="./html/map.html">籃球</a>
+            <a class="dropdown-item" href="./html/map-basket.html">籃球</a>
             <a class="dropdown-item" href="./html/map.html">排球</a>
-            <a class="dropdown-item" href="./html/map.html">棒球</a>
+            <a class="dropdown-item" href="./html/map-base.html">棒球</a>
             <a class="dropdown-item" href="./html/map.html">足球</a>
             <a class="dropdown-item" href="./html/map.html">桌球</a>
             <a class="dropdown-item" href="./html/map.html">羽球</a>
@@ -48,33 +49,12 @@
             <a class="dropdown-item" href="./html/map.html">撞球</a>
           </div>
           <li class="nav-item">
-            <a class="nav-link" href="#">關於我們</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-info" href="#">錯誤回報</a>
+            <a class="nav-link text-info" href="#">新增/修改地點</a>
           </li>
       </ul>
-      <ul class="navbar-nav mr-3">
-        <li class="nav-item">
-          <a class="nav-link" href="#">
-            <i class="fa fa-facebook-square fa-2x text-info" aria-hidden="true"></i>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">
-            <i class="fa fa-twitter-square fa-2x text-info" aria-hidden="true"></i>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">
-            <i class="fa fa-instagram fa-2x text-info" aria-hidden="true"></i>
-          </a>
-        </li>
-      </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="尋找球場" aria-label="Search">
-        <button class="btn btn-outline-info my-2 my-sm-0" type="submit">搜尋</button>
-      </form>
+      <li class="navbar-nav nav-item">
+        <a class="nav-link text-white bg-info rounded" href="#">會員登入</a>
+      </li>
     </div>
   </nav>
 
@@ -96,6 +76,8 @@
                   <a href="http://www.ntue.edu.tw/" target="_blank">http://www.ntue.edu.tw/</a>
                 </p>
                 <p>備註：系隊練習時段優先</p>
+                <button class="btn btn-outline-info my-3 my-sm-0">加入最愛</button>
+                <button class="btn btn-outline-info my-3 my-sm-0 mx-2">新增修改</button>
               </div>
               <div class="col-md-6">
                 <img src="../img/ntue1.jpg" class="img-fluid my-3" alt="Responsive image">
@@ -104,16 +86,47 @@
             </div>
           </div>
         </div>
-        <div class="embed-responsive embed-responsive-4by3 mb-5">
+        <div class="embed-responsive embed-responsive-4by3 mb-3">
           <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3928.89168102942!2d121.5434500917243!3d25.023311610868408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a908a8232611%3A0xeebfb2d71a5025c7!2z5ZyL56uL5Y-w5YyX5pWZ6IKy5aSn5a24!5e0!3m2!1szh-TW!2stw!4v1510661675418"
             frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
+        <h4>網友評論</h4>
+        <div class="card-deck mt-3 mb-4">
+          <div class="card">
+            <div class="card-body">
+              <h4 class="card-title">交通方便</h4>
+              <p class="card-text">球友A<p>球場地點位於捷運站附近，交通方便</p></p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">2017年11月15號 15:34</small>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body">
+              <h4 class="card-title">晚上人很多</h4>
+              <p class="card-text">球友B<p>傍晚到晚上有很多附近的社區居民來運動，建議避開這段時間</p></p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">2017年11月13號 20:23</small>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body">
+              <h4 class="card-title">排球網高度</h4>
+              <p class="card-text">球友C<p>排球網高度是女網高度，想來練球的要稍微注意</p></p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">2017年11月16 11:03</small>
+            </div>
+          </div>
+        </div>
+        <button class="btn btn-outline-info my-sm-0">我要評論</button>
       </div>
     </div>
   </div>
 
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-dark justify-content-center">
+  <nav class="navbar navbar-expand-lg navbar-light bg-dark justify-content-center mt-5">
     <h6 class="navbar-text text-white text-center m-0">2017 © Cursain Liu & Charles Ku @ NTUE DTD</h6>
   </nav>
 
@@ -123,7 +136,6 @@
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
     crossorigin="anonymous"></script>
-  <script type="text/javascript" src="js/main.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
     crossorigin="anonymous"></script>
 </body>
